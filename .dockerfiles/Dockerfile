@@ -8,7 +8,7 @@ COPY        . /srv/study_foolog
 WORKDIR     /srv/study_foolog
 
 # requirements 설치
-RUN         /root/.pyenv/versions/study_foolog/bin/pip install -r .requirements/debug.txt
+RUN         /root/.pyenv/versions/study_foolog/bin/pip install -r .requirements/deploy.txt
 
 # supervisor 파일 복사
 COPY        .config/supervisor/uwsgi.conf /etc/supervisor/conf.d/
