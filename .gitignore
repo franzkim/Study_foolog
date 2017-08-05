@@ -3,6 +3,8 @@
 *.swp
 .config_secret/
 static_root/
+.static_root/
+.media/
 
 ### Django ###
 *.log
